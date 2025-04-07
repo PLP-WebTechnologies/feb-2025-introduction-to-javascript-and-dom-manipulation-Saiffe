@@ -17,7 +17,7 @@ Respond to user interactions.
 >  - Modifies CSS styles via JavaScript.
 >  - Adds or removes an element when a button is clicked.
 >  - index.HTML
->  - <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
