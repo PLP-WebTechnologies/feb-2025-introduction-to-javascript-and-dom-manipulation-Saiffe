@@ -16,6 +16,30 @@ Respond to user interactions.
 >  - Changes text content dynamically.
 >  - Modifies CSS styles via JavaScript.
 >  - Adds or removes an element when a button is clicked.
+>  - index.HTML
+>  - <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linked Script Example</title>
+</head>
+<body>
+
+  <h1>Hello, World!</h1>
+  <button id="greetButton">Click me</button>
+
+  <script src="script.js"></script> <!-- Linking the script.js file -->
+
+</body>
+</html>
+JS
+// script.js
+
+document.getElementById('greetButton').addEventListener('click', function() {
+  alert('Hello, welcome to the page!');
+});
+
 
 
 # Tasks
